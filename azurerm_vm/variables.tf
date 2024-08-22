@@ -1,3 +1,9 @@
+variable "vm_count" {
+  description = "The number of virtual machines to create"
+  type        = number
+  default     = 1
+}
+
 variable "resource_group_name" {
   description = "The name of the resource group"
   type        = string
