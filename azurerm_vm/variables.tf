@@ -13,7 +13,7 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "nic_name" {
+variable "netint_name" {
   description = "The name of the Network Interface"
   type        = string
 }

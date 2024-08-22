@@ -1,5 +1,5 @@
 resource "azurerm_network_interface" "this" {
-  name                = var.nic_name
+  name                = var.netint_name
   location            = var.location
   resource_group_name = var.resource_group_name
 
